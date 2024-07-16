@@ -110,7 +110,7 @@ class EpubParser {
         $this->open();
 
         $mimetype = $this->_getFileContentFromZipArchive('mimetype');
-        if (strtolower($mimetype) !== 'application/epub+zip') {
+        if (trim(strtolower($mimetype)) !== 'application/epub+zip') {
             throw new \Exception('The epub file is not validated');
         }
 
