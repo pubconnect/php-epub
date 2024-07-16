@@ -1,5 +1,5 @@
 {
-    "name": "lywzx/php-epub",
+    "name": "pubconnect/php-epub",
     "description": "php epub parser",
     "type": "library",
     "keywords": [
@@ -12,6 +12,11 @@
         {
             "name": "liuyang",
             "email": "liuyang@lyblog.net"
+        },
+        {
+            "name": "Pubconnect",
+            "email": "info@pubconnect.nl",
+            "homepage": "https://www.pubconnect.nl"
         }
     ],
     "autoload": {
